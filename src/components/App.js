@@ -12,6 +12,7 @@ const App = () => {
   }
   const decrement=()=>{
     dispatch({type:actionType.DECREMENT});
+    
   }
   return (
     <div>
